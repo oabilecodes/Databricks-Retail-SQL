@@ -22,18 +22,11 @@ The pipeline organizes data into three distinct layers to ensure reliability, da
 * **Visualization:** Databricks Lakehouse Dashboards
   
 ## Repository Structure 
-text
-notebooks/
-01_bronze_ingestion.sql #
-Raw file ingestion
-02_silver_transformations.sql
-#Data cleansing & Star
-Schema modeling
-03_gold_aggregations.sql #
-Complex business logic &
-KPIs
-assets
-dashboard_screenshot.png#
-Visual preview of the final dashboard
-README.md
-
+```text
+├── assets/
+│   └── dashboard_screenshot.png           # Visual preview of the final dashboard
+├── notebooks/
+│   ├── 01_bronze_ingestion.sql            # Raw file ingestion
+│   ├── 02_silver_transformations.sql      # Data cleansing & Star Schema modeling
+│   └── 03_gold_aggregations.sql           # Complex business logic & KPIs
+└── README.md
