@@ -23,10 +23,12 @@ The pipeline organizes data into three distinct layers to ensure reliability, da
   
 ## Repository Structure 
 ```text
-├── assets/
-│   └── dashboard_screenshot.png           # Visual preview of the final dashboard
+├── data/
+│   └── 1781801371417_retail_sales_dataset_.csv   # Raw retail dataset (To be uploaded)
 ├── notebooks/
-│   ├── 01_bronze_ingestion.sql            # Raw file ingestion
-│   ├── 02_silver_transformations.sql      # Data cleansing & Star Schema modeling
-│   └── 03_gold_aggregations.sql           # Complex business logic & KPIs
-└── README.md
+│   ├── 01_bronze_ingestion.sql                   # (Upcoming) Raw file ingestion
+│   ├── 02_silver_transformations.sql             # (Upcoming) Data cleansing
+│   └── 03_gold_aggregations.sql                  # (Upcoming) KPIs & business logic
+├── Planning.md                                   # Project scoping & business questions
+└── README.md                                     # Project overview
+
