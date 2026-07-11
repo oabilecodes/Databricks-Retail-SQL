@@ -1,7 +1,7 @@
 # Project Plan: Retail Sales Performance Analytics
 
 ## Business Objective  
-The goal of this project is to analyze historical retail transaction data to uncover key insights regarding customer demographics, seasonal purchasing trends and product category performance to help executive leadership optimie marketing spend and inventory management.
+The goal of this project is to analyze historical retail transaction data to uncover key insights regarding customer demographics, seasonal purchasing trends and product category performance to help executive leadership optimize marketing spend and inventory management.
 
 ## Data-Driven Business Questions to Answer
 1. **Who is our most valuable customer demographic?** (Analyzing total spending and transaction counts by Gender and Age Group)
